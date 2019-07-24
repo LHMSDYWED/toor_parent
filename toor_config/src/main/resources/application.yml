@@ -1,0 +1,13 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: toor_config
+  cloud:
+    config:
+      git:
+        uri: https://github.com/LHMSDYWED/toor_parent
+        username: 1224301484@qq.com
+        password: 8520lhm..
+        search-paths: toor_config
